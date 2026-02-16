@@ -88,8 +88,8 @@ print(f"Incia con un hambre de : {jugador.hambre}")
 
 while jugador.dinero > 0:
     print("“Sigues viviendo lejos de casa…”")
-    # jugador.dinero -= 10  
-    jugador.gastar_todo() 
+    jugador.dinero -= 10  
+    #jugador.gastar_todo() 
     jugador.reflexionar()
     
 print("El dinero se acabo")              
